@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="defaultLanguage" content="en-US">
+    <meta name="availableLanguages" content="en-US, es-MX">
+    <link name="localization" content="./localization/{locale}/main.ftl" />
+    <script type="module" src="./index.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <button type="button" onclick="window.updateButton()">Click Me!</button>
+    <h1 data-l10n-id="welcome">Welcome!</h1>
+    <a href="./examples/example01.html"><h2 data-l10n-id="example", data-l10n-args='{"number": 1}'>Example</h2></a>
+    <a href="./examples/example02.html"><h2 data-l10n-id="example", data-l10n-args='{"number": 2}'>Example</h2></a>
+  </body>
+</html>

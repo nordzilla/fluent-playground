@@ -1,0 +1,21 @@
+{
+  "name": "parcel-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf ./dist && mkdir -p ./dist && cp -R ./src/localization ./dist/localization && parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "since 2019-01"
+  ],
+  "dependencies": {
+    "@fluent/bundle": "^0.16.1",
+    "@fluent/dom": "^0.7.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.3.2"
+  }
+}
